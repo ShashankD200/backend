@@ -1,14 +1,17 @@
 {
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "mysql2": "^3.12.0"
-  },
   "engines": {
     "node": "22.x"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "vercel dev"
+    
+  },
+  "dependencies": {
+    "@vercel/node": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.12.0"
   }
 }
